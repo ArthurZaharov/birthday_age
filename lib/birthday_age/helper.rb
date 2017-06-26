@@ -1,6 +1,8 @@
 module BirthdayAge
   module Helper
     def birthday_age(date)
+      return unless date
+
       "#{age(date)} years old"
     end
 
